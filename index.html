@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../desafio-e-commerce-grid/assets/css/estilos.css">
+    <title> Desafío Grid</title>
+</head>
+
+<body>
+<div class="layout">
+    <header class="header">
+        <h1>Mi Ecommerce</h1>              
+    </header>
+
+           <div class="sidebar">
+            <h2>Categorías</h2>
+        
+        <!-- se requiere utilizar flexbox en esta parte -->
+            <ul class="categories">
+                <li><a href="#">Cintillos <span>(13)</span></a></li>
+                <li><a href="#">Tarros de Pelotas<span>(21)</span></a></li>
+                <li><a href="#">Viseras<span>(7)</span></a></li>
+                <li><a href="#">Zapatilleros <span>(15)</span></a></li>             
+            </ul>
+        </div>
+
+     <!-- ahora utilizaré grid para el cuerpo principal -->
+
+        <div class="main">
+            <section class="productos">
+           
+                <article class="tarjeta">
+                    <div class="img-producto">
+                        <img src="../desafio-e-commerce-grid/assets/img/cintillo-tilki.png">
+                    </div>
+                    
+                    <h3>Cintillo Tilki</h3>
+                    <p class="precio">15.000</p>
+                    <button class="boton">Comprar</button>
+                </article>
+
+                <article class="tarjeta">
+                    <div class="img-producto">
+                        <img src="../desafio-e-commerce-grid/assets/img/tarro-de-pelotas-robin-soderling.png">
+                    </div>
+                     
+                    <h3>Tarro de Pelotas</h3>
+                    <p class="precio">14.000</p>
+                    <button class="boton">Comprar</button>
+                </article>
+        
+                <article class="tarjeta">
+                    <div class="img-producto">
+                        <img src="../desafio-e-commerce-grid/assets/img/visera-yonex.png">
+                    </div>
+
+                    <h3>Visera</h3>
+                    <p class="precio">16.000</p>
+                    <button class="boton">Comprar</button>
+                </article>
+
+                <article class="tarjeta">
+                    <div class="img-producto">
+                        <img src="../desafio-e-commerce-grid/assets/img/zapatillero-prince.png">
+                    </div>
+
+                    <h3>Zapatillero</h3>
+                    <p class="precio">25.000</p>
+                    <button class="boton">Comprar</button>
+                </article>
+            
+        </section>
+     </div>
+   
+    <footer class="footer"><p>@miecommerce</p></footer>
+</div>
+  
+</body>
+
+</html>
